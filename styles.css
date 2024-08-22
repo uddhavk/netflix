@@ -1,0 +1,557 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.netflix{
+    height: 100%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.nav{ 
+    height: 90vh;
+    width: 100%;
+    /* background-color: chocolate; */
+    background-image: url(background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.upper-nav{
+    height: 15vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    height: 60%;
+    width: 25%;
+    margin-left: 10vw;
+}
+.laguage{
+    padding: 0.6vw 1vw;
+    margin-right: 1vw;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    display: flex;
+   
+}
+.laguage p{
+    margin-right: 10px;
+    margin-right: 10px;
+}
+.signup{
+    padding: 0.6vw 1vw;
+    margin-right: 1vw;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+    
+}
+.container{
+    height: 40vh;
+    width: 100%;
+    /* background-color: lightblue; */
+    margin-top: 20vh;
+    text-align: center;
+    padding-top: 3vw;
+}
+.container h1{
+    font-size: 3vw;
+    font-weight: 600;
+    color: white;
+}
+.container h3{
+    margin-top: 1vw;
+    color: white;
+}
+.container p{
+    margin-top: 1vw;
+    color: white;
+}
+.input-div{
+    margin-top: 1.5vw;
+}
+.input-div button{
+    padding: 1vw 2vw;
+    margin-right: 1vw;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+.input-div button a{
+    text-decoration: none;
+    color: white;
+}
+.input-div input{
+    padding: 1vw 2vw;
+    margin-right: 1vw;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    /* background-color: red; */
+    border-radius: 5px;
+    /* border: none; */
+    /* background-filter: blur(1px); */
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5));
+
+}
+.input-div input::placeholder{
+    color: rgb(79, 79, 79);
+    font-size: 15px;
+}
+.stye-line{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+}
+.Tv-show{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.text-tv-show{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+.text-tv-show h1{
+    padding-top: 13vw;
+    font-size: 50px;
+    font-weight: 900;
+}
+.text-tv-show p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10vw;
+}
+.text-tv-show h1,p{
+    margin-left: 10vw;
+    color: white;
+}
+.video-tv-show{
+    height: 100%;
+    width: 50%;
+    /* background-color: c; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.video-box{
+    height: 50%;
+    width: 52%;
+    /* background-color: blueviolet; */
+    margin-left: 83px;
+}
+.video-box video{
+    height: 100%;
+    width: 100%;
+}
+.video-tv-show img{
+    height: 63%;
+    width: 70%;
+    position: absolute;
+    left: 15px;
+}
+.download-show{
+    height: 80vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+.img-download-show{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.text-download-show{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    
+}
+
+.img-download-show img{
+    height: 90%;
+    width: 80%;
+}
+.download-box{
+    height: 15vh;
+    width: 22vw;
+    background-color: black;
+    position: absolute;
+    top: 22vw;
+    right: 9vw;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px 15px;
+    display: flex;
+}
+.poster{
+    height: 100%;
+    width: 20%;
+    background-image: url(movi\ posters.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.downloding{
+    height: 100%;
+    width: 60%;
+    /* background-color: chartreuse; */
+    padding-top: 25px;
+}
+.downloding h4,p{
+    margin-left: 15px;
+    color: white;
+}
+.downloding p{
+    color: rgb(77, 77, 254);
+    margin-top: 5px;
+}
+.downloding-icon{
+    height: 100%;
+    width: 20%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.text-download-show h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 7vw;
+    font-weight: 900;
+}
+.text-download-show p{
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+}
+.movies{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.movies-text{
+    height: 100%;
+    width: 50%;
+}
+.movies-ad{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+.movies-ad video{
+    margin-top: 7vw;
+    margin-left: 3vw;
+    /* box-shadow: white 0px 5px 15px; */
+}
+.movies-ad img{
+    height: 80%;
+    width: 95%;
+    position: absolute;
+    top: 5vw;
+    
+}
+.movies-text h1{
+    padding-top: 13vw;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 12vw;
+    color: white;
+}
+.movies-text p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 12vw;
+}
+.carton{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.carton-img{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.carton-img img{
+    height: 80%;
+    width: 80%;
+}
+.carton-text{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.carton-text h1{
+    padding-top: 7vw;
+    font-size: 50px;
+    font-weight: 900;
+    /* margin-left: 12vw; */
+    color: white;
+}
+.carton-text p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.Question{
+    height: 140vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.Question h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 5vw;
+}
+.Question-box{
+    height: 6vw;
+    width: 70vw;
+    background-color: rgb(58, 57, 57);
+    margin-top: 15px;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+.Question-box p{
+    font-size: 25px !important;
+    margin: 0 !important;
+}
+.Question-box i{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+.Question div p{
+    font-size: 20px;
+    margin-top: 3vw;
+}
+footer{
+    height: 50vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 5vw; */
+    padding-left: 10vw;
+}
+.footer-box1{
+    height: 80%;
+    width: 35%;
+    /* background-color: chartreuse; */
+    text-align: start;
+   padding: 20px 40px;
+}
+.footer-box1 p{
+    margin-top: 25px;
+    margin-left: 0;
+}
+.footer-box1 div{
+    margin-top: 25px;
+}
+.footer-box1 div .kk p{
+    margin-top: 0;
+    margin-left: 10px;
+}
+.footer-box1 a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.netflix-signin{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.netflix-sign-bg{
+    height: 80vw;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(Netflix-Background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+url(Netflix-Background.jpg);
+}
+.netflix-sign-bg img{
+    height: 12%;
+    width: 12%;
+    margin-left: 10vw;
+}
+.sign-in-box{
+    height: 85%;
+    width: fit-content;
+    /* background-color: blue; */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    margin-left: 35vw;
+    margin-top: 1.3vw;
+    border-radius: 5px 5px 0 0;
+    padding: 3vw 5vw;
+    /* text-align: center; */
+}
+.sign-in-box h1{
+    /* margin-left: -12vw; */
+    color: white;
+}
+.sign-in-box input{
+    padding: 12px 25px;
+    padding-right: 80px;
+    background-color: black;
+    /* filter: blur(15px black); */
+    /* filter: brightness(0.3);
+    background-color: #fff; */
+    color: white;
+    margin-top: 1vw;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)); */
+}
+
+.sign-in-box button{
+    padding: 9px 25px;
+    /* text-align: center; */
+    padding-right: 8.1vw;
+    margin-top: 1vw;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(222, 11, 11);
+    border-radius: 5px;
+    border: none;
+}
+.sign-in-box button p{
+margin-left: 6vw;
+margin-top: 5px;
+font-weight: 600;
+font-size: 17px;
+}
+.or{
+    margin-left: 9vw;
+}
+.pass{
+    margin-left: 6vw;
+}
+.code{
+    padding: 12px 25px !important;
+    padding-right: 5vw !important;
+    background-color: white !important;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+
+    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)); */
+}
+.code h4{
+    margin-left: 4vw !important;
+}
+.sign-in-box p{
+    margin-top: 1vw;
+}
+.sign-in-lower{
+    height: 15vw;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 1vw;
+    color: white;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 2vw;
+    margin-right: 10px;
+}
+
+.sign-in-lower p{
+    margin: 0;
+}
+.sign-in-lowe .qus{
+    margin-top: 2vw;
+}
+.sign-in-lower .captcha{
+    font-size: 13px;
+    margin-top: 2vw;
+} 
+.sign-in-lower .captcha a{
+    text-decoration: none;
+    color: rgb(2, 78, 104);
+}
+footer{
+    height: 30vw;
+    width: 100%;
+    background-color: black;
+    margin-top: 20vh;
+}
